@@ -31,7 +31,7 @@ function connectToSFS() {
 /* ------------------ Binance WS ------------------ */
 
 function connectToExchange() {
-  const url = `wss://stream.binance.com:9443/ws/${SYMBOL}@trade`;
+  const url = `wss://ws-feed.exchange.coinbase.com`;
   const ws = new WebSocket(url);
 
   ws.on("open", () => {

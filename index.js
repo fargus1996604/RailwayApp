@@ -67,5 +67,5 @@ function connectToExchange() {
 
 /* ------------------ Startup ------------------ */
 
-connectToSFS();
+//connectToSFS();
 connectToExchange();

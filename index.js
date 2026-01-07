@@ -52,6 +52,7 @@ function connectToExchange() {
     };
 
     sfsClient.write(JSON.stringify(payload) + "\n");
+    console.log(JSON.stringify(payload) + "\n");
     lastSent = now;
   });
 
